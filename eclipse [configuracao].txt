@@ -1,0 +1,125 @@
+================================================
+Eclipse - Configuração
+================================================
+Fonte
+	General -> Appearance -> Colors and Fonts -> 
+	Basic -> Text Font
+	-> Consolas Regular 12
+	
+Tema do Eclipse
+	General -> Appearance
+	-> Theme -> Classic
+
+Save Actions
+	Java -> Editor -> Save Actions
+	-> Perform the selected actions on save
+	-> Format source code
+
+Content Assist
+	Java -> Editor -> Content Assist
+	-> Completion overwrites
+	-> Insert best guessed arguments
+
+Typing
+	Java -> Editor -> Typing
+	-> Semicolons
+	-> Braces
+
+Spelling - Desativar verificação da escrita do texto
+	-> Enable spell checking
+
+------------------------------------------------
+Git
+	Windows -> Perspective -> Customize Perspective...
+	-> Action Set Availability -> Git
+
+------------------------------------------------
+Atalhos
+
+	Exibir atalhos do Eclipse: Ctrl + Shift + L
+
+	Executar: Ctrl + F11
+
+	Tela Cheia: Ctrl + M
+
+	Formatar Código: Ctrl + Shift + F
+
+	Seleção em Bloco: Alt + Shift + A
+
+	Arrumar os imports: Ctrl + Shift + O
+
+	QuickFix: Ctrl + 1
+
+	Busca de Comando: Ctrl + 3
+
+	Atalhos Getters e Setters: Alt + Shift + S
+
+	Entrar na classe: F3
+
+	Navegação de Abas: Ctrl + PgDown / PgUp
+
+	Voltar para o lugar selecionado: Alt + ->, <-
+
+------------------------------------------------
+	Exibir todos métodos e atributos da classe: Ctrl + O
+
+	Exibir subclasses da Classe selecionada: Ctrl + T
+
+	Call Hierarchy: Ctrl + Alt + H
+
+	Onde o método é utilizado: Ctrl + Shift + G
+
+------------------------------------------------
+	Menu Refactor: Alt + Shift + T
+
+	Extract Method: Ctrl + Shift + M
+
+	Perspective: Ctrl + F8
+
+------------------------------------------------
+Busca
+
+	Busca (Find/Replace): Ctrl + F
+
+	Localizar Arquivo: Ctrl + Shift + R
+
+	Busca Especifica: Ctrl + Shift + T
+
+	Busca Incremental + Ctrl + J
+	-> Busca pela palavra: Ctrl + K || Ctrl + Shift + K
+
+	Busca pelo projeto: Ctrl + H
+	-> Navegar pelo próximo resultado: Ctrl + .
+	-> Navegar pelo resultado anterior: Ctrl + ,
+		
+	Local History: Compare With -> Local History
+
+------------------------------------------------
+Debug
+
+	Debug: Alt + Shift + T
+	
+	Inserir ou remover Breakpoints: Ctrl + Shift + B
+	
+	Step Over: F6 (executar linha atual)
+	
+	Step Into: F5 (entrar no método)
+	
+	Step Return: F7 (voltar método externo)
+	
+	Continua a execução até a linha marcada: Ctrl + R
+	
+	Visualizar o valor da variavel: Ctrl + Shift + D
+	
+	Expressions: Ctrl + Shift + I
+
+------------------------------------------------
+Task Tags -> Preferences (TASKS)
+	
+	//TODO algo que precisa ser feito
+	
+	//FIXME algum bug conhecido que precisa ser corrigido
+	
+	//XXX alguma coisa que precisamos refatorar
+
+------------------------------------------------
