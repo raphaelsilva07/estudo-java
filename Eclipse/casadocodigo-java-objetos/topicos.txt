@@ -1,0 +1,68 @@
+===========================================
+CasaDoCodigo - Java e Orientação a Objetos
+==========================================
+Variaveis e tipos primitivos
+
+Operadores
+	+	soma
+	-	subtração
+	*	multiplicação
+	/ 	divisão
+	% 	modulo
+
+Tipos primitivos
+	boolean 1 bit
+	byte 	1 bit
+	short	2 byte
+	char	2 byte
+	int 	4 byte
+	float	4 byte
+	long	8 byte
+	double	8 byte
+
+Tipos não primitivos
+	String
+
+------------------------------------------
+Casting de valores
+	int numeroInteiro = (int) livroJava8;
+
+------------------------------------------
+Teste condicional
+	IF, ELSE, IF ELSE
+
+Operador ternario
+	double valor = v1 > v2 ? 100 : 0;
+------------------------------------------
+Loops
+
+While
+	while (i < 35){}
+
+Do While
+	do{}while(i < 10);
+
+For
+	for (int i = 0; i < soma; i++) {}
+
+------------------------------------------
+Operadores logicos
+
+	&& 	-> AND
+	|| 	-> OR
+	!	-> NOT
+
+------------------------------------------
+Orientação a objetos
+
+	Classe = Molde
+	Atributos = Variaveis [escopo da classe]
+	Metodos = Funções [comportamentos]
+
+------------------------------------------
+Objetos para todos os lados
+
+	Composição = uma classe pode ter outra classe como atributo
+		
+
+------------------------------------------
