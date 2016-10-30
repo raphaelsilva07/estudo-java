@@ -2,9 +2,8 @@
 Eclipse - Configuração
 ================================================
 Fonte
-	General -> Appearance -> Colors and Fonts -> 
-	Basic -> Text Font
-	-> Consolas Regular 12
+	General -> Appearance -> Colors and Fonts
+	-> Basic -> Consolas Regular 12
 	
 Tema do Eclipse
 	General -> Appearance
@@ -39,8 +38,6 @@ Atalhos
 	Exibir atalhos do Eclipse: Ctrl + Shift + L
 
 	Executar: Ctrl + F11
-
-	Tela Cheia: Ctrl + M
 
 	Formatar Código: Ctrl + Shift + F
 
