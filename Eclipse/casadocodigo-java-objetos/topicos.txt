@@ -1,6 +1,6 @@
-===========================================
+=========================================================
 CasaDoCodigo - Java e Orientação a Objetos
-==========================================
+=========================================================
 Variaveis e tipos primitivos
 
 Operadores
@@ -23,17 +23,17 @@ Tipos primitivos
 Tipos não primitivos
 	String
 
-------------------------------------------
+--------------------------------------------------------
 Casting de valores
 	int numeroInteiro = (int) livroJava8;
 
-------------------------------------------
+--------------------------------------------------------
 Teste condicional
 	IF, ELSE, IF ELSE
 
 Operador ternario
 	double valor = v1 > v2 ? 100 : 0;
-------------------------------------------
+--------------------------------------------------------
 Loops
 
 While
@@ -45,24 +45,117 @@ Do While
 For
 	for (int i = 0; i < soma; i++) {}
 
-------------------------------------------
+--------------------------------------------------------
 Operadores logicos
 
 	&& 	-> AND
 	|| 	-> OR
 	!	-> NOT
 
-------------------------------------------
+--------------------------------------------------------
 Orientação a objetos
 
 	Classe = Molde
 	Atributos = Variaveis [escopo da classe]
 	Metodos = Funções [comportamentos]
 
-------------------------------------------
+--------------------------------------------------------
 Objetos para todos os lados
 
 	Composição = uma classe pode ter outra classe como atributo
 		
+--------------------------------------------------------
+Metodos com parametro
 
-------------------------------------------
+public void aplicaDescontoDe(double porcentagem){
+	valor -= valor * porcentagem;
+}
+
+--------------------------------------------------------
+Metodos com retorno
+
+//implementação
+boolean temAutor(){
+	return this.autor != null;
+}
+
+if(livro.temAutor()){
+	System.out.print("O nome do autor desse livro é: ");
+	System.out.print(livro.autor.nome);
+}
+--------------------------------------------------------
+Construtores
+
+public Livro (){
+	// instruções aqui ...
+}
+
+=======================================================
+Cap 4 - Encapsulamento
+=======================================================
+Modificadores de visibilidade
+	default, public, private, protected
+
+-------------------------------------------------------
+Para descobrir se o codigo está bem encapsulado, deve-se
+fazer essas duas perguntas:
+	
+	O que esse codigo faz? [somente essa deve-se ser respondida facilmente]
+	Como esse codigo faz?
+
+-------------------------------------------------------
+Getters e Setters
+
+	private String nome;
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+-------------------------------------------------------
+Definindo depedencias pelo construtor
+
+Sobrecarga de construtor (overloaded)
+	public Livro() {}
+
+	public Livro(Autor autor) {
+		this.autor = autor;
+	}
+
+-------------------------------------------------------
+Inicializando atributos da classe
+
+-------------------------------------
+Valor default de cada tipo primitivo
+-------------------------------------
+Tipo Primitivo 			Valor Default
+boolean					false
+byte					0
+short					0
+char					'u0000'
+int 					0
+float					0.0f
+long					0l
+double					0.0d
+
+-------------------------------------------------------
+Delegando para outros Construtores
+
+public Livro(Autor autor) {
+	this();
+	this.autor = autor;
+}
+
+public Livro() {
+	this.isbn = "000-00-00000-00-0";
+}
+
+=======================================================
+Cap 5 - Herança e Polimorfismo
+=======================================================
+
+-------------------------------------------------------

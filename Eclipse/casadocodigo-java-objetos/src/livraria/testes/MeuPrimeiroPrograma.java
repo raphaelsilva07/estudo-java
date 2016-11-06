@@ -1,3 +1,4 @@
+package livraria.testes;
 
 public class MeuPrimeiroPrograma {
 	public static void main(String[] args) {
